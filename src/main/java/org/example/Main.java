@@ -21,7 +21,9 @@ public class Main {
         int index = 2;
         DeleteElement.DeleteIndex3OfArray(firstArray,index);
 
+// 3. How to read a matrix from console
 
+        MatrixDemo.MatrixFromConsole();
 
 
     }
