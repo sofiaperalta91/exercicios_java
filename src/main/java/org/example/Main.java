@@ -25,6 +25,16 @@ public class Main {
 
         MatrixDemo.MatrixFromConsole();
 
+// 4. Reverse words in a String.
+
+        String strg = "My name is Sofia";
+        WordReverse.ReverseWordsInString(strg);
+
+// 5. Reverse elements in an array of int.
+        int[] intArray = {1,2,3,4,5};
+        IntReverse.ReverseIntInAnArray(intArray);
+
+
 
     }
 
