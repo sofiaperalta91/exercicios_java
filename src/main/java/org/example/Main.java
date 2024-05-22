@@ -17,9 +17,9 @@ public class Main {
 
 // 2. Delete an element from an array.
 
-        int[] firstArray = {1,2,3,4,5};
+        int[] array = {1,2,3,4,5};
         int index = 2;
-        DeleteElement.DeleteIndex3OfArray(firstArray,index);
+        DeleteElement.DeleteIndex3OfArray(array,index);
 
 // 3. How to read a matrix from console
 
@@ -31,8 +31,16 @@ public class Main {
         WordReverse.ReverseWordsInString(strg);
 
 // 5. Reverse elements in an array of int.
-        int[] intArray = {1,2,3,4,5};
-        IntReverse.ReverseIntInAnArray(intArray);
+
+        IntReverse.ReverseIntInAnArray(array);
+
+//6. Insert an element in an array of int at a specific position.
+
+        int elementToInsert = 8;
+       InsertIntArray.InsertIntArraySpecificIndex(array, index, elementToInsert);
+
+
+
 
 
 
