@@ -36,11 +36,14 @@ public class Main {
 
 //6. Insert an element in an array of int at a specific position.
 
-        int elementToInsert = 8;
+       int elementToInsert = 8;
        InsertIntArray.InsertIntArraySpecificIndex(array, index, elementToInsert);
 
 
 
+//7. Left rotate an array by one position.
+
+        LeftRotateArray.leftRotateIntArrayByOnePosition(array, index);
 
 
 
